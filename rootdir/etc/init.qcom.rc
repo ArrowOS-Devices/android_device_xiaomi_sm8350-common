@@ -235,6 +235,8 @@ on property:persist.vendor.qcomsysd.enabled=0
     stop qcomsysd
 
 on property:sys.boot_completed=1
+    write /sys/class/kgsl/kgsl-3d0/default_pwrlevel 3
+
     # Enable UFS clock scaling back
     write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
 
