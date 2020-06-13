@@ -44,3 +44,6 @@ ro.vendor.qti.va_aosp.support=1
 
 # Wifi Display
 persist.debug.wfd.enable=1
+
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
