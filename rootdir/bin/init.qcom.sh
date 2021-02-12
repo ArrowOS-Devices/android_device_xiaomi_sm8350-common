@@ -50,3 +50,12 @@ if [ ! -f /vendor/firmware_mnt/verinfo/ver_info.txt -o "$prev_version_info" != "
 fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
+on late-init
+    # Start services for bootanimation
+    start surfaceflinger
+    start themed_bootanimation
+    start bootanim
+    start vendor.hwcomposer-2-3
+    start vendor.configstore-hal
+    start vendor.qti.hardware.display.allocator
+
