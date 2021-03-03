@@ -306,6 +306,10 @@ ro.incremental.enable=yes
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
 
+# SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM7325
+
 # USB
 vendor.usb.diag.func.name=ffs
 vendor.usb.use_ffs_mtp=1
