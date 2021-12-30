@@ -381,4 +381,7 @@
     <!-- Power button doubles as fp sensor -->
     <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 
+   <!-- Pocket Lock -->
+   <bool name="config_pocketModeSupported">false</bool>
+
 </resources>
