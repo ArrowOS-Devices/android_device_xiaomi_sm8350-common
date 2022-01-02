@@ -182,6 +182,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.sf.color_mode=0 \
+    vendor.display.comp_mask=1048576 \
+    vendor.display.use_smooth_motion=1
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
 	ro.surface_flinger.vsync_sf_event_phase_offset_ns=60000
