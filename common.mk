@@ -190,6 +190,13 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
 	ro.surface_flinger.vsync_sf_event_phase_offset_ns=60000
 
+PRODUCT_PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.late.app.duration=16600000 \
+    debug.sf.early.sf.duration=16600000 \
+    debug.sf.early.app.duration=16600000 \
+    debug.sf.earlyGl.sf.duration=16600000 \
+    debug.sf.earlyGl.app.duration=16600000
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0 \
