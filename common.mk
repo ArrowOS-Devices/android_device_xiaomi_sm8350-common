@@ -334,6 +334,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     com.gsma.services.nfc \
+    libnqnfc_nci_jni \
     com.nxp.nfc.nq \
     NQNfcNci \
     Tag
