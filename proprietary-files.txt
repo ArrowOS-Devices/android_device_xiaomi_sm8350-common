@@ -60,6 +60,10 @@ vendor/lib64/libbluetooth_audio_session_qti_2_1.so|05d120062fa3c3254ad1b2b2fcc3d
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|949e8e8c6fde83516d9103ae53e87ecd3a8b6eb6
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|dfb5d4ce5e2f8b59b1d74f7661e75327e4187d78
 
+# Bluetooth (AptX)
+system_ext/lib64/libaptX_encoder.so
+system_ext/lib64/libaptXHD_encoder.so
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
