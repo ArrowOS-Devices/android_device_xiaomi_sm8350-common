@@ -352,6 +352,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
+    android.hardware.secure_element@1.2 \
+    android.hardware.nfc@1.2.vendor \
     com.android.nfc_extras \
     com.gsma.services.nfc \
     libnqnfc_nci_jni \
@@ -360,8 +362,9 @@ PRODUCT_PACKAGES += \
     Tag
 
 PRODUCT_PACKAGES += \
-    nfc_nci.nqx.default.hw \
-    vendor.nxp.hardware.nfc@2.0-service
+    android.hardware.secure_element@1.2.vendor \
+    vendor.nxp.hardware.nfc@2.0-service \
+    nfc_nci.nqx.default.hw
 
 PRODUCT_PACKAGES += \
     jcos_nq_client \
