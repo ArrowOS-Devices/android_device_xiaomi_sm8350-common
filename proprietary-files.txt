@@ -707,6 +707,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Perf - from lisa_global-user 11 RKQ1.210503.001 V12.5.14.0.RKOMIXM release-keys
+vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|b8eae9731c8acc94ae92a9cce07b65480c75e616
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|e74bfe181f72bc474c1bd061973e5048095d9516
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
 vendor/etc/perf/commonresourceconfigs.xml|74488c4a4dbdd47dd04646ac1224b1ca3af5609f
