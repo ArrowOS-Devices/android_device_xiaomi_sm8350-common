@@ -702,9 +702,9 @@ vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxWmaDec.so
 
 # Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib64/libperipheral_client.so
+vendor/bin/pm-proxy|f8facebb49d5c46ffd0036c31f60ad188ded4cc4
+vendor/bin/pm-service|8a7615c3bdca02ab45da44320c68b85d8da6c3b2
+vendor/lib64/libperipheral_client.so|cb7d5613a4e0afb8395fe7f139480e615c5f6da2
 
 # Perf - from lisa_global-user 11 RKQ1.210503.001 V12.5.14.0.RKOMIXM release-keys
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|b8eae9731c8acc94ae92a9cce07b65480c75e616
