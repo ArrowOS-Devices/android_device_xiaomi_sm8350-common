@@ -940,18 +940,18 @@ vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
 vendor/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Snapdragon Computer Vision Engine
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
+vendor/lib/libscveCommon.so|48537df6471d80a82d15e9653715ec8397089a20
+vendor/lib/libscveCommon_stub.so|acab9339ff2eb19fa6f85e3cde51b535b62f2b68
+vendor/lib/libscveObjectSegmentation.so|f153a8e15b24c94d79796db047cda9713941bbc5
+vendor/lib/libscveObjectSegmentation_stub.so|35593db327ddc779d4cec0f3eb0f0a5709c56bcb
+vendor/lib/libscveObjectTracker.so|9fafc0fa2df58a0b3eb0b779061953b3bfcba36a
+vendor/lib/libscveObjectTracker_stub.so|cea8d54af7ab3083919601d1dca69f483962cf1f
+vendor/lib64/libscveCommon.so|6adf58a1b21c3ffad3018708d351b88709665527
+vendor/lib64/libscveCommon_stub.so|feb605c644e088129e9ca291e358b0ad9ba11c16
+vendor/lib64/libscveObjectSegmentation.so|0f25100bd68908e30a8b92bc3f2332fbb0bca940
+vendor/lib64/libscveObjectSegmentation_stub.so|8a97ddd79f66978067b22e46d707a0dfecb368ea
+vendor/lib64/libscveObjectTracker.so|bd204f231a7e13566a209df3f2a25c0e1ebb163f
+vendor/lib64/libscveObjectTracker_stub.so|1a9bd587a432b0b8950a2ed012257b00fd7e89eb
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
